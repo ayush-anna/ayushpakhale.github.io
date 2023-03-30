@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Raleway:wght@400;500&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    background-color: rgb(228, 239, 238);
+    width: 237px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 50px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 17px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:midnightblue;
+}
+
+.main{
+    /* background-color: rebeccapurple; */
+    width: 85vw;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infoContainer{
+    /* background-color: coral; */
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 111px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ayushPic img{
+    height: 75vh;
+}
+
+.ayushInfo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 50px;
+}
+
+.name{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.about{
+    font-size: 30px;
+}
+
+.buttons{
+    margin:30px;
+    
+}
+
+.buttons button{
+    padding: 7px;
+    border-radius: 8px;
+    color: white;
+    background-color: lightslategrey;
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+}
+
+.buttons button:hover{
+    background-color:white ;
+    color:lightslategrey;
+}
+
